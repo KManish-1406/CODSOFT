@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manish Kumar Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <h1 class="logo">Manish Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div>
+        <h2>Hello, I'm <span>Manish Kumar</span></h2>
+        <p>Aspiring Developer | Web Intern | Hackathon Finalist</p>
+        <a href="#contact" class="btn">Hire Me</a>
+  </section>
+    <section class="welcome-bar">
+
+<section id="about" class="about">
+  <div class="container about-flex">
+    <div class="about-img">
+      <img src="images/profile.jpg" alt="Manish Profile">
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>I am a Developer who blends technical knowledge with industry insight to build practical solutions. I’m passionate about web development, AI tools, and problem-solving.</p>
+      <p>Experienced in hackathons, internships, and projects like AI converters and chatbots, I aim to innovate and grow in the tech world.</p>
+      <a href="resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </div>
+</section>
+
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python, Java, C</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>MySQL</li>
+        <li>Problem Solving</li>
+        <li>German, Telugu, Hindi, English</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>Multilingual AI Converter</h3>
+          <p>Converts text into audio/video using AI (Hackathon Finalist)</p>
+        </div>
+        <div class="project">
+          <h3>AR/VR Game</h3>
+          <p>Basic interactive AR/VR-based educational game</p>
+        </div>
+        <div class="project">
+          <h3>Library Management System</h3>
+          <p>DBMS-based system for managing books and students</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+  <div class="container">
+    <h2>What I Do</h2>
+    <div class="service-list">
+      <div class="service">
+        <h3>Web Development</h3>
+        <p>Building responsive, clean, and fast websites using HTML, CSS, JavaScript, and modern tools.</p>
+      </div>
+      <div class="service">
+        <h3>AI Integrations</h3>
+        <p>Experience with integrating AI models and tools for tasks like speech generation and NLP-based chatbots.</p>
+      </div>
+      <div class="service">
+        <h3>Database Management</h3>
+        <p>Handling MySQL databases, building data-driven apps and CRUD dashboards with backend integration.</p>
+      </div>
+    </div>
+  </div>
+</section>
+ <section id="resume" class="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <p>Click below to download my latest resume.</p>
+      <a href="resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:kmanishmanish48@gmail.com">kmanishmanish48@gmail.com</a></p>
+      <p>Phone: 7416221701</p>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Manish Kumar. All rights reserved.</p>
+    </div>
+  </footer>
+  <button id="backToTop" title="Go to top">↑</button>
+  <script>
+  let topButton = document.getElementById("backToTop");
+  window.onscroll = () => {
+    if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+      topButton.style.display = "block";
+    } else {
+      topButton.style.display = "none";
+    }
+  };
+  topButton.onclick = () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  };
+</script>
+</body>
+</html>
